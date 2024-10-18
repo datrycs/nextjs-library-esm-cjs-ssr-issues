@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "sample-lib": {
+      "signature": "365a05d939c9cd97eff1a31e325d103a",
+      "file": true
+    }
+  }
+}

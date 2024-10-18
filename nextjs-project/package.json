@@ -1,0 +1,24 @@
+{
+  "name": "nextjs-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--inspect && next dev"
+  },
+  "dependencies": {
+    "@commercelayer/js-auth": "^6.6.0",
+    "@commercelayer/react-components": "^4.15.11",
+    "cross-env": "^7.0.3",
+    "next": "^14.2.15",
+    "next-bundle-analyzer": "^0.6.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sample-lib": "file:.yalc/sample-lib"
+  },
+  "devDependencies": {
+    "@types/node": "22.7.5",
+    "@types/react": "18.3.11",
+    "typescript": "5.6.3"
+  }
+}
