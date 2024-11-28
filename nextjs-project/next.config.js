@@ -57,25 +57,6 @@ let nextConfig = {
     const redirectsFileData = await fs.promises.readFile(fullFilePath);
     return JSON.parse(redirectsFileData);
   },
-  webpack: config => {
-
-    config.resolve.alias = {
- 
-      ...config.resolve.alias,
- 
-      '@commercelayer/react-components': path.resolve(
- 
-        __dirname,
- 
-        'node_modules/@commercelayer/react-components/lib/esm'
- 
-      ),
- 
-    };
- 
-    return config;
- 
-   },
 };
 
 if (shouldAnalyzeBundles) {
